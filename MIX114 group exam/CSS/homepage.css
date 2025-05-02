@@ -2,3 +2,9 @@
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
 }
+.custom-navbar .nav-link{
+    color: white;
+}
+.custom-navbar .nav-link.active{
+    color: white !important;
+}
