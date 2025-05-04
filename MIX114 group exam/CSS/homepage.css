@@ -35,48 +35,47 @@ footer {
     padding: 2rem;
     color: #5F3712;
     font-family: 'Inter', sans-serif;
-  }
+}
   
-  .footer-content {
+.footer-content {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
-  }
+}
   
-  .footer-left {
+.footer-left {
     max-width: 300px;
-  }
+}
   
-  .footer-left img {
+.footer-left img {
     max-width: 150px;
     height: auto;
     margin-bottom: 1rem;
-  }
+}
   
-  .footer-left p {
+.footer-left p {
     margin: 0;
     font-size: 1rem;
-  }
+}
   
-  .footer-right {
+.footer-right {
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
-  }
+}
   
-  .footer-column {
+.footer-column {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-  }
+}
   
-  .footer-column p {
+.footer-column p {
     margin: 0;
     font-size: 1rem;
-  }
 }
 footer a {
     text-decoration: none;
