@@ -1,7 +1,113 @@
+body {
+    background-color: #FFFCF9;
+}
+
 .custom-navbar {
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
 }
+
+
+
+.container{
+    background-color: antiquewhite;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.location-input{
+    margin: 2rem 0;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputs input{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+
+}
+
+.icon{
+    font-size: 1.2rem;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
+}
+
+.tour-type .options, .animal-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 1.5rem;
+}
+
+.option, .animal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+
+}
+
+.option img, .animal img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.animal.selected img {
+    border: 3px solid green;
+}
+
+.start-button{
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #3b5f2c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.ai-moose{
+    position: absolute;
+    top: 30%;
+    right: -80px;
+    text-align: center;
+}
+
+.ai-moose img{
+    width: 120px;
+    height: auto;
+}
+
+.speech-bubble{
+    background-color: #fff;
+    border: 1px solid #444;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    width: 120px;
+    font-size: 0.85rem;
+}
+
+
 .custom-navbar .nav-link{
     color: white;
     padding: 0.5rem 1rem;
