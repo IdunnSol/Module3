@@ -57,6 +57,18 @@ h1 {
   line-height: 140%;            
 }
 
+
+h4 {
+  font-family: 'Inter';
+  font-weight: 700;        
+  font-size: 28px;         
+  line-height: 140%;       
+  letter-spacing: 0;       
+  border-bottom: 4px solid #d1662f; 
+  display: inline-block; 
+  padding-bottom: 4px;
+}
+
 /* footer */
 footer {
     display: flex;
