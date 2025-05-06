@@ -1,5 +1,6 @@
 body {
     background-color: #FFFCF9;
+    font-family: 'Inter', sans-serif;
 }
 
 .custom-navbar {
@@ -56,10 +57,26 @@ footer a {
 
 .forumSideNav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border-radius: 100;
+    gap: 2rem;
+    margin: 20px;
+    border-right: solid black 1px;
+    align-items: center;
 }
 .forumText {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3rem;
+}
+.mainContent {
+    align-items: center;
+}
+.mainContent.comments {
+    border: solid black 1px;
 }
