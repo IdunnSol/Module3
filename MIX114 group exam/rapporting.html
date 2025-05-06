@@ -72,47 +72,82 @@
         </div>
       </div>
     </nav>
+
     <!-- Registrer observation -->
     <div class="main-content">
       <h1 class="registrer-title">Registrer observasjon</h1>
       <div class="content-wrapper">
         <!-- Images -->
-        <section class="Image upload">
-          <div class="hovedbilde">
-            <img src="pictures/placeholder.jpg" alt="Big image" />
+        <section class="image-upload">
+          <div class="big-image">
+            <img src="pictures/placeholder.jpg" alt="Stort bilde" />
           </div>
           <div class="small-images">
-            <img src="pictures/placeholder.jpg" alt="Small image">
-            <img src="pictures/placeholder.jpg" alt="Small image">
+            <img src="pictures/placeholder.jpg" alt="Miniatyr" />
+            <img src="pictures/placeholder.jpg" alt="Miniatyr" />
             <div class="add-new-image">
-              <label for="add-Image">+</label>
-              <input type="file" id="add-Image" style="display: none;" />
+              <label for="image-upload">+</label>
+              <input type="file" id="image-upload" style="display: none" />
             </div>
+          </div>
+        </section>
+
+        <!-- Form -->
+        <section class="form-section">
+          <form>
+            <div class="form-group">
+              <label for="dyr">Dyr</label>
+              <select id="dyr">
+                <option>Elg</option>
+                <option>Rev</option>
+                <option>Hjort</option>
+                <option>Hare</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="date">Dato</label>
+              <input type="date" id="date" />
+            </div>
+
+            <div class="form-group">
+              <label for="beskrivelse">Beskrivelse</label>
+              <textarea
+                id="beskrivelse"
+                rows="4"
+                placeholder="Hvordan oppførte dyret seg?..."
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="lokasjon">Lokasjon</label>
+              <input
+                type="text"
+                id="lokasjon"
+                placeholder="Eks: Nygårdsgaten 42, Bergen"
+              />
+            </div>
+
+            <button type="submit" class="submit-button">Registrer</button>
+          </form>
         </section>
       </div>
     </div>
 
-    <!-- Form -->
-     <section class="form">
-        <form>
-            <div class="dropdown-menu">
-          <label for="dyr">Dyr</label>
-          <select id="dyr">
-            <option>Elg</option>
-            <option>Rev</option>
-            <option>Hjort</option>
-            <option>Hare</option>
-        </form>
-     </section>
-
-
     <!-- Footer -->
-    <footer class="mt-5 p-3 bg-light text-center">
+    <footer>
       <div>
-        <a href="#">Om oss</a> |
+        <a href="#">Om oss</a>
         <a href="#">Personvern</a>
       </div>
-      <div></div>
+      <div>
+        <p>&copy; 2025 VillSpor. Alle rettigheter reservert</p>
+      </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
