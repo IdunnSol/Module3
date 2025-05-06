@@ -1,3 +1,6 @@
+
+
+/*header*/ 
 .custom-navbar {
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
@@ -71,6 +74,7 @@ h4 {
 
 
 
+
 /* diagram og fakta */
 #diagram-og-fakta {
   display: flex;
@@ -108,6 +112,9 @@ h4 {
 #mote-elg div {
   width: 50%;
 }
+
+
+
 
 /* footer */
 footer {
