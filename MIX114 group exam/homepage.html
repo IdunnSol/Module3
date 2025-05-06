@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="CSS/homepage.css">
 </head>
 <body>
 
@@ -12,28 +12,86 @@
 
     </header>
 
-    <section>
+    <div class="container">
         <h1>Planlegg din neste tur!</h1>
-        <div>
-            <p>Hvor?</p>
-            <label for="from">Fra:</label>
-            <textarea class="textarea" id="message" name="message" required></textarea>
-            <label for="to">Til:</label>
-            <textarea class="textarea" id="message" name="message" required></textarea>
+
+        <section class="Location-input">
+            <label>Hvor?</label>
+            <div class="inputs">
+                <input type="text" placeholder="Fra:"/>
+                <span class="icon">📍</span>
+                <input type="text" placeholder="Til:"/>
+                <span class="icon">📍</span>
+            </div>
+        </section>
+
+    <hr />
+
+
+
+    <section class="tour-type">
+        <h2>Velg din type tur:</h2>
+        <div class="options">
+            <div class="option">
+                <img src="Bilder/Fjell.jpg" alt="fjelltur">
+                <p>Fjelltur</p>
+            </div>
+            <div class="option">
+                <img src="Bilder/Fisketur.jpeg" alt="fisketur">
+                <p>Fjelltur</p>
+            </div>
+            <div class="option">
+                <img src="Bilder/Skogstur.jpeg" alt="skogstur">
+                <p>Fjelltur</p>
+            </div>
         </div>
     </section>
 
-    <section>
-        <img src="" alt="turer" class="photos">
-        <img src="" alt="turer" class="photos">
-        <img src="" alt="turer" class="photos">
+    <hr />
+
+    <section class="animals">
+        <h2>Hvilke dyr ønsker du å se?</h2>
+        <div class="animal-grid">
+            <div class="animal">
+                <img src="Bilder/fugl.jpg" alt="Fugl">
+                <p>Fugl</p>
+            </div>
+
+            <div class="animal">
+                <img src="Bilder/elg.jpg" alt="Elg">
+                <p>Elg</p>
+            </div>
+
+            <div class="animal">
+                <img src="Bilder/fisk.jpg" alt="Fisk">
+                <p>Fisk</p>
+            </div>
+
+            <div class="animal">
+                <img src="Bilder/rev.jpg" alt="Rev">
+                <p>Rev</p>
+            </div>
+
+            <div class="animal">
+                <img src="Bilder/reinsdyr.jpeg" alt="Reinsdyr">
+                <p>Reinsdyr</p>
+            </div>
+
+            <div class="animal">
+                <img src="Bilder/hare.jpg" alt="Hare">
+                <p>Hare</p>
+            </div>
+
+        </div>
     </section>
 
+    <button class="start-button">Start din tur</button>
 
-
-
-
-
-    
+        <div class="ai-moose">
+            <img src="Bilder/elg.jpg" alt="AI-Elgen">
+            <div class="speech-bubble">Spør meg om natur og tur</div>
+        </div>
+    </div>
+  
 </body>
 </html>
