@@ -30,17 +30,7 @@
     gap: 1rem;
     margin-right: 1rem;
 }
-<<<<<<< Updated upstream
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #A9B260;
-    color: #5F3712;
-    font-size: 0.9rem;
-}
-  
+
 footer div {
     display: flex;
     gap: 1.5rem;
@@ -54,109 +44,4 @@ footer a {
     color: inherit;
 }
   
-=======
-
-
-
-/* === Fonts og base === */
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #fdfbf7;
-    color: #222;
-    line-height: 1.6;
-  }
-  
-  h1 {
-    font-family: 'Katibeh', cursive;
-    font-size: 3.5rem;
-    font-weight: normal;
-    margin: 0;
-  }
-  
-  h2 {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  h3 {
-    margin: 0;
-  }
-  
-  p {
-    margin: 0 0 1rem 0;
-  }
-  
-
-  /* === Hero === */
-  .hero {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 3rem;
-  }
-  
-  .latin-name {
-    font-style: italic;
-    color: #e1783f;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .intro {
-    font-size: 1rem;
-    color: #333;
-  }
-  
-  /* === Diagram og fakta seksjon === */
-  #diagram-og-fakta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-  }
-  
-  #chart {
-    width: 300px;
-    height: 300px;
-  }
-  
-  #fakta {
-    display: flex;
-    flex-direction: column;
-    gap: 1.8rem;
-    font-size: 1rem;
-  }
-  
-  #fakta h3 {
-    font-weight: bold;
-    margin-bottom: 0.3rem;
-  }
-  
-  #fakta p {
-    margin: 0;
-  }
-  
-  /* === Innholdsseksjoner === */
-  section {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-  }
-  
-  #adferd h2,
-  #mote-elg h2 {
-    font-weight: bold;
-  }
-  
-  #mote-elg img {
-    float: right;
-    max-width: 350px;
-    border-radius: 5px;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-  }
->>>>>>> Stashed changes
   
