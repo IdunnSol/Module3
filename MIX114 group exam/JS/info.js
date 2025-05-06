@@ -1,12 +1,12 @@
-
 Highcharts.chart('chart', {
     chart: {
         type: 'pie'
     },
     title: {
-        text: 'Elgpopulasjon i Norge',
-        style: { display: 'none' } // Skjuler tittelen i grafen
+        text: 'Elgepopulasjon i Norge',
+        style: { display: 'none' }
     },
+    colors: ['#C6CF3D', '#2B500D', '#F47C26', '#A8A873'], // Figma-farger
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
     },

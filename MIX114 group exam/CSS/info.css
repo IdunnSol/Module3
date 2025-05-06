@@ -1,6 +1,9 @@
 
 
 /*header*/ 
+body {
+    background-color: #FFFCF9;
+}
 .custom-navbar {
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
@@ -94,6 +97,33 @@ h4 {
   flex-direction: column;
   gap: 1.5rem;
 }
+
+.fakta-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fakta-item img {
+  width: 35px;
+  height: auto;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #2B500D;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+#chart-container {
+  width: 45%;
+}
+
+#fakta {
+  width: 35%;
+}
+
 
 /* moose photo */
 #mote-elg {
