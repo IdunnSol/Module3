@@ -3,6 +3,7 @@
 /*header*/ 
 body {
     background-color: #FFFCF9;
+  
 }
 .custom-navbar {
     background-color: #2B500D;
@@ -75,15 +76,35 @@ h4 {
   padding-bottom: 4px;
 }
 
+.wrapper {
+  max-width: 1200px;  
+  margin: 4rem auto;  
+  padding: 0 1rem;    
+}
+
+.wrapper1 {
+  max-width: 1200px;  
+  margin: 6rem auto;  
+  padding: 0 1rem;    
+}
+
+.hero {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
 
 
 /* diagram og fakta */
 #diagram-og-fakta {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 3rem;
   margin-top: 2rem;
+  text-align: left; /* viktig for fakta-delen */
 }
 
 #chart-container {
