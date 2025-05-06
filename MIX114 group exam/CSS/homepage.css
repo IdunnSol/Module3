@@ -1,17 +1,11 @@
-body {
-    background-color:  #fffaf4;
-}
 
-.custom-navbar {
-    background-color: #2B500D;
-    font-family: 'Inter', sans-serif;
-}
+
 
 
 
 .container{
     background-color:  #fffaf4;
-    margin: auto;
+    margin: 4rem;
     padding: 2rem;
     text-align: center;
     position: relative;
@@ -149,7 +143,7 @@ footer {
 }
   
 .footer-content {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
