@@ -69,6 +69,46 @@ h4 {
   padding-bottom: 4px;
 }
 
+
+
+/* diagram og fakta */
+#diagram-og-fakta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+#chart-container {
+  width: 60%;
+}
+
+#fakta {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* moose photo */
+#mote-elg {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+#mote-elg img {
+  width: 50%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+#mote-elg div {
+  width: 50%;
+}
+
 /* footer */
 footer {
     display: flex;
