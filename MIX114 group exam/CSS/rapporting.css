@@ -66,7 +66,7 @@ h1 {
 
 /* Content */ 
 .registrer-title {
-    margin: 64px;
+    margin: 4rem;
 }
 
 .content-wrapper {
@@ -119,7 +119,7 @@ h1 {
 .form-section {
     flex: 1;
     min-width: 300px;
-    margin-right: 64px;
+    margin-right: 4rem;
 }
 
 .form-group {
@@ -158,8 +158,6 @@ h1 {
 .submit-button:hover{
     background-color: #A9B260;
 }
-
-
 
 /* footer */
 footer {
