@@ -58,6 +58,7 @@ footer a {
 .forumSideNav {
     display: flex;
     flex-direction: row;
+    border-radius: 100;
 }
 .forumText {
     display: flex;
