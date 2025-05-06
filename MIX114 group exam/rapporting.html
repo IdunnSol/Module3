@@ -24,7 +24,7 @@
     />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="CSS/info.css" />
+    <link rel="stylesheet" href="CSS/rapporting.css" />
   </head>
 
   <body>
@@ -72,6 +72,39 @@
         </div>
       </div>
     </nav>
+    <!-- Registrer observation -->
+    <div class="main-content">
+      <h1 class="registrer-title">Registrer observasjon</h1>
+      <div class="content-wrapper">
+        <!-- Images -->
+        <section class="Image upload">
+          <div class="hovedbilde">
+            <img src="pictures/placeholder.jpg" alt="Big image" />
+          </div>
+          <div class="small-images">
+            <img src="pictures/placeholder.jpg" alt="Small image">
+            <img src="pictures/placeholder.jpg" alt="Small image">
+            <div class="add-new-image">
+              <label for="add-Image">+</label>
+              <input type="file" id="add-Image" style="display: none;" />
+            </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Form -->
+     <section class="form">
+        <form>
+            <div class="dropdown-menu">
+          <label for="dyr">Dyr</label>
+          <select id="dyr">
+            <option>Elg</option>
+            <option>Rev</option>
+            <option>Hjort</option>
+            <option>Hare</option>
+        </form>
+     </section>
+
 
     <!-- Footer -->
     <footer class="mt-5 p-3 bg-light text-center">
