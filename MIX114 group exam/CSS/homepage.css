@@ -15,18 +15,40 @@
     margin: 2rem 0;
 }
 
+.input-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper input{
+    padding-right: 2rem;
+    padding-left: 1rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+
+}
+
 .inputs{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    position: relative;
+    display: inline-block;
 }
 
-.inputs input{
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
+
+
+.input-wrapper .icon{
+    position: absolute;
+    right: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 1.2rem;
+
 
 }
 
