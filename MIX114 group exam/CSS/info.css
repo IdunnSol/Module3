@@ -1,5 +1,4 @@
 
-
 /*header*/ 
 body {
     background-color: #FFFCF9;
@@ -82,34 +81,47 @@ h4 {
   padding: 0 1rem;    
 }
 
-.wrapper1 {
-  max-width: 1200px;  
-  margin: 6rem auto;  
-  padding: 0 1rem;    
+.wrapperhero {
+  max-width: 900px; 
+  margin: 2rem auto 0 auto; 
+  padding: 0 2rem;
 }
 
 .hero {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
-
-
+.alces {
+  color: #d1662f; 
+  font-weight: 500; 
+  font-style: italic;
+}
 
 /* diagram og fakta */
+
 #diagram-og-fakta {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   gap: 3rem;
-  margin-top: 2rem;
-  text-align: left; /* viktig for fakta-delen */
+  max-width: 1000px;
+  margin: 1.5rem auto 0 auto;
 }
 
 #chart-container {
-  width: 60%;
+  width: 50%;
+  min-width: 400px;
+  max-width: 500px;
+  padding: 1rem;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
 
 #fakta {
   width: 35%;
@@ -129,15 +141,16 @@ h4 {
   height: auto;
 }
 
+
 .vertical-line {
   width: 2px;
   background-color: #2B500D;
-  height: 100%;
-  margin-top: 1rem;
+  height: 300px;
+  flex-shrink: 0;
 }
 
 #chart-container {
-  width: 45%;
+  width: 50%;
 }
 
 #fakta {
