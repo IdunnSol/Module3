@@ -9,9 +9,7 @@ body {
     url("../Bilder/bird-footprint.png");
     background-repeat: no-repeat, no-repeat;
     background-position: top right, bottom left;
-    background-repeat: no-repeat, no-repeat;
-    background-position: top right, bottom left;
-    background-size: 20rem, 16rem; /* juster størrelser */
+    background-size: 20rem, 30rem;
 }
 
 /* navbar */
