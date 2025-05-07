@@ -83,6 +83,7 @@ footer a {
 }
 
 .forumSideNav {
+    height: 80%;
     position: fixed;
     top: 5rem;
     left: 0;
@@ -153,4 +154,7 @@ footer a {
 .mainContent input:focus {
     color: black !important;
     border-color: #888;
+}
+.mainContent h1 {
+    text-align: center;
 }
