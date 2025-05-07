@@ -5,6 +5,16 @@ body {
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
 }
+
+.custom-navbar .nav-link.active {
+    font-weight: bold;
+    color: white !important;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 2px solid #D7EC1A;
+    padding-bottom: 0.2rem;
+}
 .custom-navbar .nav-link{
     color: white;
     padding: 0.5rem 1rem;
