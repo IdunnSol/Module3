@@ -5,8 +5,8 @@
 
 .container{
     background-color:  #fffaf4;
-    margin: 4rem;
-    padding: 2rem;
+    margin: 0;
+    padding: 2rem 1rem;
     text-align: center;
     position: relative;
 }
@@ -67,6 +67,11 @@ hr{
     border: 3px solid green;
 }
 
+.option.selected img{
+    border: 3px solid green;
+
+}
+
 .start-button{
     margin-top: 2rem;
     padding: 0.8rem 1.5rem;
@@ -102,6 +107,7 @@ hr{
 
 
 /* navbar */
+
 .custom-navbar {
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
@@ -127,6 +133,8 @@ hr{
     flex: 1; 
     margin-left: auto;
     margin-right: auto;
+    list-style: none;
+    width: 100%;
 }
 .custom-navbar .nav-link.active{
     color: white !important;
@@ -135,6 +143,7 @@ hr{
     gap: 1rem;
     margin-right: 1rem;
 }
+
 footer {
     background-color: #A9B260;
     padding: 2rem;
