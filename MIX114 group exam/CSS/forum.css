@@ -109,7 +109,7 @@ footer a {
     margin: 0 auto;
 }
 .containerMain {
-    background-color: #FFFCF9;
+    background-color:#FFFCF9;
     flex: 1;
     display: flex;
     justify-content: center;
