@@ -1,6 +1,8 @@
 body {
     background-color: #FFFCF9;
     font-family: 'Inter', sans-serif;
+    height: 100%;
+    margin: 4rem;
 }
 
 .custom-navbar {
@@ -73,10 +75,39 @@ footer a {
     display: flex;
     flex-wrap: nowrap;
     gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.containerMain {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    padding-top: 2rem;
 }
 .mainContent {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
 }
-.mainContent.comments {
+.post {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.comments {
     border: solid black 1px;
+    padding: 1rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    border-radius: 8px;
+}
+input {
+    background-color: #B9B9B9;
+    color: black;
+    padding: 0.5rem;
+    margin: 4rem;
 }
