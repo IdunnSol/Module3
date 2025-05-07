@@ -102,12 +102,13 @@
         <section class="form-section">
           <form>
             <div class="form-group">
-              <label for="dyr">Dyr</label>
-              <select id="dyr">
-                <option>Elg</option>
-                <option>Rev</option>
-                <option>Hjort</option>
-                <option>Hare</option>
+              <label for="animal">Dyr</label>
+              <select id="dyr" required>
+                <option value="" disabled selected>Velg dyr</option>
+                <option value="elg">Elg</option>
+                <option value="rev">Rev</option>
+                <option value="hjort">Hjort</option>
+                <option value="hare">Hare</option>
               </select>
             </div>
 
@@ -117,19 +118,28 @@
             </div>
 
             <div class="form-group">
-              <label for="beskrivelse">Beskrivelse</label>
+              <label for="tittle">Tittel</label>
+              <input
+                type="text"
+                id="title"
+                placeholder="Eks: Elg sett ved elva"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="discription">Beskrivelse</label>
               <textarea
-                id="beskrivelse"
+                id="discription"
                 rows="4"
                 placeholder="Hvordan oppførte dyret seg?..."
               ></textarea>
             </div>
 
             <div class="form-group">
-              <label for="lokasjon">Lokasjon</label>
+              <label for="location">Lokasjon</label>
               <input
                 type="text"
-                id="lokasjon"
+                id="location"
                 placeholder="Eks: Nygårdsgaten 42, Bergen"
               />
             </div>
