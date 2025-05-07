@@ -115,7 +115,8 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 .mainContent {
     display: flex;
@@ -129,6 +130,7 @@ footer a {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
+    margin-bottom: 1.5rem; 
 }
 .comments {
     border: solid black 1px;
@@ -157,4 +159,21 @@ footer a {
 }
 .mainContent h1 {
     text-align: center;
+}
+
+.post.own {
+    flex-direction: row-reverse;
+}
+
+.post.own .comments {
+    background-color: #E1F5C4;
+    text-align: right;
+    padding: 1rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    border-radius: 8px;
+}
+
+.post.own img {
+    margin-left: 1rem;
 }
