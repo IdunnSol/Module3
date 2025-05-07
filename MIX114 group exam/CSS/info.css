@@ -1,5 +1,13 @@
 body {
     background-color: #FFFCF9;
+    margin: 0;
+    padding: 0;
+    background-image: 
+    url("../Bilder/footprint.png"),
+    url("../Bilder/bird-footprint-left.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, center left;
+    background-size: 20rem, 10rem;
 }
 .custom-navbar {
     background-color: #2B500D;
