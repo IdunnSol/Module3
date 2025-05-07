@@ -1,11 +1,27 @@
 body {
     background-color: #FFFCF9;
+    font-family: 'Inter', sans-serif;
 }
 
 .custom-navbar {
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
 }
+
+.navbar-brand {
+    margin-left: 4rem;
+}
+
+.custom-navbar .nav-link.active span {
+    font-weight: bold;
+    color: white !important;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 2px solid #D7EC1A;
+    padding-bottom: 0.2rem;
+}
+
 .custom-navbar .nav-link{
     color: white;
     padding: 0.5rem 1rem;
@@ -32,6 +48,11 @@ body {
     color: white !important;
 }
 
+.d-flex{
+    gap: 1rem;
+    margin-right: 4rem;
+}
+
 footer {
     justify-content: space-between;
     align-items: center;
@@ -56,10 +77,26 @@ footer a {
 
 .forumSideNav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border-radius: 100;
+    gap: 2rem;
+    margin: 20px;
+    border-right: solid black 1px;
+    align-items: center;
 }
 .forumText {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3rem;
+}
+.mainContent {
+    align-items: center;
+}
+.mainContent.comments {
+    border: solid black 1px;
 }
