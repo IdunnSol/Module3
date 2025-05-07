@@ -1,6 +1,8 @@
 Highcharts.chart('chart', {
   chart: {
     type: 'pie',
+    height: 300,
+    width: 450,
     backgroundColor: 'transparent'
   },
   title: {
@@ -17,15 +19,16 @@ Highcharts.chart('chart', {
       dataLabels: {
         enabled: true,
         format: '<b>{point.name}</b>',
-        distance: 30,             
+        distance: 10,             
         softConnector: true,     
         connectorColor: '#000000',
         style: {
-          fontSize: '14px',
+          fontSize: '11px',
           color: '#000000'
         },
-        crop: false,
-        overflow: 'none'
+        crop: false,            // <– viktig: ikke kutt etiketter som går utenfor
+        overflow: 'justify',    // <– tving visning, selv om det går utenfor
+        allowOverlap: true    
       }
     }
   },
