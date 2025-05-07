@@ -2,55 +2,62 @@
 /*header*/ 
 body {
     background-color: #FFFCF9;
-  
+    margin: 0;
+    padding: 0;
+    background-image: 
+    url("../Bilder/footprint.png"),
+    url("../Bilder/bird-footprint-left.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, center left;
+    background-size: 20rem, 18rem;
 }
 .custom-navbar {
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
 }
-
-.custom-navbar .nav-link.active {
-    font-weight: bold;
-    color: white !important;
-    display: inline-block;
-    padding-left: 0;
-    padding-right: 0;
-    border-bottom: 2px solid #D7EC1A;
-    padding-bottom: 0.2rem;
+.navbar-brand {
+  margin-left: 4rem;
+}
+.custom-navbar .nav-link.active span {
+  font-weight: bold;
+  color: white !important;
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 2px solid #D7EC1A;
+  padding-bottom: 0.2rem;
 }
 .custom-navbar .nav-link{
-    color: white;
-    padding: 0.5rem 1rem;
+  color: white;
+  padding: 0.5rem 1rem;
 }
 .custom-navbar .nav-link:hover {
-    color: #D7EC1A;
+  color: #D7EC1A;
 }
 .custom-navbar .navbar-collapse {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between; 
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
 }
 .custom-navbar .navbar-nav {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    flex: 1; 
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex: 1; 
+  margin-left: auto;
+  margin-right: auto;
 }
 .custom-navbar .nav-link.active{
-    color: white !important;
+  color: white !important;
 }
 .d-flex{
-    gap: 1rem;
-    margin-right: 1rem;
+  gap: 1rem;
+  margin-right: 4rem;
 }
 
-
 /*fonts*/ 
-
 h1 {
   font-family: 'Katibeh';
   font-weight: 400;      
