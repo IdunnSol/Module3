@@ -104,23 +104,18 @@ h4 {
 #diagram-og-fakta {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 3rem;
-  max-width: 1000px;
-  margin: 1.5rem auto 0 auto;
+  max-width: 1100px;
+  margin: 2rem auto;
+  overflow: visible; /* <- Viktig! */
 }
 
 #chart-container {
-  width: 50%;
-  min-width: 400px;
-  max-width: 500px;
-  padding: 1rem;
-  overflow: visible;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 55%;
+  min-width: 450px;
+  overflow: visible; /* <- Sørger for at labels ikke kuttes */
 }
-
 
 
 
