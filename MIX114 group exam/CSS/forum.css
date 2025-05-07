@@ -1,8 +1,16 @@
 body {
     background-color: #FFFCF9;
     font-family: 'Inter', sans-serif;
+    height: 100%;
+    margin: 4rem;
 }
-
+h1 {
+    font-family: 'Katibeh';
+    font-weight: 400;      
+    font-size: 80px;       
+    line-height: 120%;      
+    letter-spacing: 0.05em; 
+  }
 .custom-navbar {
     background-color: #2B500D;
     font-family: 'Inter', sans-serif;
@@ -33,7 +41,6 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between; 
-    align-items: center;
     width: 100%;
 }
 .custom-navbar .navbar-nav {
@@ -76,13 +83,18 @@ footer a {
 }
 
 .forumSideNav {
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    width: 200px;
+    border-right: solid black 1px;
+    background-color: #FFFCF9;
     display: flex;
     flex-direction: column;
-    border-radius: 100;
     gap: 2rem;
-    margin: 20px;
-    border-right: solid black 1px;
     align-items: center;
+    padding-top: 1rem;
+    z-index: 10;
 }
 .forumText {
     display: flex;
@@ -91,12 +103,54 @@ footer a {
 }
 .content {
     display: flex;
-    flex-wrap: nowrap;
     gap: 3rem;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.containerMain {
+    background-color: #FFFCF9;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2rem;
 }
 .mainContent {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
 }
-.mainContent.comments {
+.post {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.comments {
     border: solid black 1px;
+    padding: 1rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    border-radius: 8px;
+}
+.mainContent input {
+    background-color: #B9B9B9;
+    color: black !important;
+    padding: 0.5rem;
+    margin: 3rem;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 360px;
+}
+
+.mainContent input::placeholder {
+    color: black !important;
+}
+
+.mainContent input:focus {
+    color: black !important;
+    border-color: #888;
 }
