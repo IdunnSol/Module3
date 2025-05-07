@@ -162,21 +162,26 @@ h4 {
 
 
 /* moose photo */
-#mote-elg {
+#tekstinfo {
   display: flex;
-  align-items: flex-start;
+  gap: 3rem;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.tekstblokk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   gap: 2rem;
-  margin-top: 2rem;
 }
 
-#mote-elg img {
-  width: 50%;
-  border-radius: 8px;
+.bildeblokk img {
+  height: 100%;
+  max-height: 300px;
+  border-radius: 20px;
   object-fit: cover;
-}
-
-#mote-elg div {
-  width: 50%;
+  margin-top: 3rem; 
 }
 
 
