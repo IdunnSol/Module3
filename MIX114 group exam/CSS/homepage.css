@@ -83,7 +83,7 @@
     align-items: center;
     gap: 1rem;
     position: relative;
-    display: inline-block;
+
 }
 
 
@@ -124,6 +124,7 @@ hr{
 
 }
 
+
 .option img, .animal img{
     width: 100px;
     height: 100px;
@@ -131,6 +132,15 @@ hr{
     object-fit: cover;
     border: 2px solid #ccc;
 }
+
+.option img:hover,
+.animal img:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); /* valgfritt: liten zoom-effekt */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
 
 .animal.selected img {
     border: 3px solid green;
@@ -150,6 +160,14 @@ hr{
     border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.start-button:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); /* valgfritt: liten zoom-effekt */
+    transition: all 0.3s ease;
+    cursor: pointer;
+
 }
 
 .ai-moose{
@@ -174,7 +192,6 @@ hr{
     font-size: 0.85rem;
 }
 
-<<<<<<< HEAD
 
 /* navbar */
 
@@ -214,8 +231,6 @@ hr{
     margin-right: 1rem;
 }
 
-=======
->>>>>>> main
 footer {
     background-color: #A9B260;
     padding: 2rem;
